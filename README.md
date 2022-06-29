@@ -1,5 +1,5 @@
 # shopping-list
-Thinkful Unit 2 Lesson 3 | A shopping list built from scratch using jQuery. 
+A shopping list built from scratch using JavaScript. 
 
 Build a Shopping List App
 
