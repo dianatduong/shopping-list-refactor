@@ -67,25 +67,17 @@ section,
     padding: 20px;
     font-size: 20px; 
     text-align: center; 
+    background-color: #005b55; 
+    color: #fff;
 }
 
 li {
     list-style: none;
 }
 
-li button  {
-    background-color: #d6d7d9; 
-}
 
 button:hover {
-   background-color: #005b55;
-   color: #fff;
-}
-
-.btn-clicked {
-    font-size: 18px;
-    color: #fff;
-    background-color: #005b55;
+   background-color: #00423d;
 }
 
 .btn-clicked,
