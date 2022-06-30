@@ -23,7 +23,7 @@ btn.addEventListener('click', () => {
   }
 
   deleteBtn.addEventListener('click', () => {
-    shoppingList.removeChild(item)
+    shoppingList.removeChild(listItem)
   });
 
   input.focus();
