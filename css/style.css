@@ -65,7 +65,8 @@ section,
 
 .btn {
     padding: 20px;
-    font-size: 20px;  
+    font-size: 20px; 
+    text-align: center; 
 }
 
 li {
@@ -93,7 +94,6 @@ button:hover {
     padding: 10px;
 }
 
-.btn,
 .add-item {
     text-align: left;
 }
@@ -129,7 +129,6 @@ input[type="checkbox"] {
 }
 
 .add-item {
-    display: none;
     border: 1px dotted #82391B;
     color: #00345b;
     background-color: #fff;
