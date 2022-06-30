@@ -13,10 +13,18 @@ btn.addEventListener('click', () => {
   item.textContent = newItem;
   deleteBtn.textContent = 'Delete';
 
-  shoppingList.prepend(item);
-  item.appendChild(deleteBtn);
-  item.classList.add('list-item');
-  deleteBtn.classList.add('delete');
+
+  if (!newItem) {
+    alert("Please enter an item.")
+  } else {
+    shoppingList.prepend(item);
+    item.appendChild(deleteBtn);
+    item.classList.add('list-item');
+    deleteBtn.classList.add('delete');
+  }
+
+
+  
 
   deleteBtn.addEventListener('click', () => {
     shoppingList.removeChild(item)
@@ -27,6 +35,7 @@ btn.addEventListener('click', () => {
 
 
   
+
 
 
 

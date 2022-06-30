@@ -58,7 +58,7 @@ h1 {
 
 section,
 .btn,
-.add-item,
+.input,
 .list-item {
     width: 100%; 
 }
@@ -67,7 +67,7 @@ section,
     padding: 20px;
     font-size: 20px; 
     text-align: center; 
-    background-color: #005b55; 
+     background-color: #005b55; 
     color: #fff;
 }
 
@@ -81,7 +81,7 @@ button:hover {
 }
 
 .btn-clicked,
-.add-item,
+.input,
 .list-item {
     padding: 10px;
 }
@@ -90,7 +90,7 @@ button:hover {
     text-align: left;
 }
 
-.add-item,
+.input,
 .list-item,
 .close,
 .reset {
@@ -120,7 +120,7 @@ input[type="checkbox"] {
     float: left;
 }
 
-.add-item {
+.input {
     border: 1px dotted #82391B;
     color: #00345b;
     background-color: #fff;
